@@ -1,0 +1,10 @@
+require: rubocop-rspec
+
+Layout/LineLength:
+  Max: 120
+Metrics/AbcSize:
+  Max: 20
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
+Metrics/MethodLength:
+  Max: 15
